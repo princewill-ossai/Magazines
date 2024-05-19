@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  background-image: url(./images/lady-img.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: auto;
+  height: 100vh;
+  width: 40%;
+}
+
+.h1 {
+  padding-block: 2rem;
+}
+
+h1 {
+  font-size: 7rem;
+  text-align: center;
+}
+
+.h1 p {
+    text-align: end;
+    padding-right: 18rem;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 14rem;
+}
+
+.flex-div div {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.right-div {
+  width: 30rem;
+  text-align: end;
+  /* padding-inline: 5rem; */
+}
+
+h2 span {
+    font-size: 1.5rem;
+    font-size: 200;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+
+@media (max-width: 700px) {
+     
+.card {
+  background-image: url(./images/lady-img.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: auto;
+  height: 100vh;
+  width: 95%;
+}
+
+.h1 {
+  padding-block: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.h1 p {
+    text-align: end;
+    padding-right: 8.5rem;
+    font-size: 1rem;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-inline: 2rem;
+}
+
+.flex-div div {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.right-div {
+  width: 30rem;
+  text-align: end;
+  /* padding-inline: 5rem; */
+}
+
+h2 span {
+    font-size: 1.5rem;
+    font-size: 200;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+}
+
+@media(min-width:700px) {
+  .card {
+    background-image: url(./images/lady-img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .h1 {
+    padding-block: 2rem;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+  }
+  
+  .h1 p {
+      text-align: end;
+      padding-right: 23.5rem;
+      font-size: 2rem;
+  }
+  
+  .flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8rem;
+    padding-inline: 2rem;
+    gap: 6rem;
+  }
+  
+  .flex-div div {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+  }
+
+  .flex-div > * p {
+    font-size: 2.3rem;
+  }
+  
+  .right-div {
+    width: 30rem;
+    text-align: end;
+    /* padding-inline: 5rem; */
+  }
+  
+  h2 span {
+      font-size: 1.5rem;
+      font-size: 200;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+  
+  }
+  
+  @media(max-width:1200px) {
+    .card {
+      background-image: url(./images/lady-img.jpg);
+      background-repeat: no-repeat;
+      background-position: top;
+      margin: auto;
+      height: 120vh;
+      width: 100%;
+    }
+    
+    .h1 {
+      padding-block: 2rem;
+    }
+    
+    h1 {
+      font-size: 6rem;
+      text-align: center;
+    }
+    
+    .h1 p {
+        text-align: end;
+        padding-right: 23.5rem;
+        font-size: 2rem;
+    }
+    
+    .flex-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8rem;
+      padding-inline: 2rem;
+      gap: 6rem;
+    }
+    
+    .flex-div div {
+      display: flex;
+      flex-direction: column;
+      gap: 7rem;
+    }
+  
+    .flex-div > * p {
+      font-size: 2.3rem;
+    }
+    
+    .right-div {
+      width: 30rem;
+      text-align: end;
+    }
+    
+    h2 span {
+        font-size: 1.5rem;
+        font-size: 200;
+    }
+    
+    h2 {
+      font-size: 4rem;
+    }
+  }
+
+
+/* @media(max-width:1200px) {
+    .card {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 5rem;
+      }
+
+      .h1 p {
+        text-align: end;
+        padding-right: 35rem;
+    }
+
+      .flex-div > * p {
+        font-size: 2.5rem;
+      }
+
+      .flex-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7.5rem;
+        padding-block: 1rem;
+      }
+
+      .flex-div div {
+        gap: 4rem;
+        padding-inline: 0.7rem;
+      }
+
+      h2 {
+        font-size: 4rem;
+      }
+} */
