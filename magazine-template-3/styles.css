@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: hsla(3, 5%, 60%, 10);
+  width: 30%;
+  height: 86vh;
+  margin: auto;
+  margin-top: 6rem;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo-div {
+  margin-top: -20rem;
+  /* margin-left: 15rem; */
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: start;
+  gap: 7rem;
+  padding-left: 2.5rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  padding-bottom: 5rem;
+  padding-left: 2.5rem;
+  line-height: 0.7;
+  font-weight: 500;
+}
+
+.logo-div p {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  gap: 0rem;
+  justify-content: center;
+}
+
+.img-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.top-div {
+  margin-top: -6rem;
+}
+
+.bottom-div {
+  padding-top: 28rem;
+}
+
+.red-top {
+  transform: rotate(90deg);
+  width: 24rem;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.redbottom {
+  transform: rotate(90deg);
+  width: 23.5rem;
+  margin-top: 3.7rem;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.blue-top {
+  width: 20rem;
+  margin-left: 2.5rem;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin-bottom: -4.5rem;
+}
+
+.blue-bottom {
+  width: 19.5rem;
+  margin-left: 2.5rem;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+h2 {
+  font-size: 4rem;
+  position: absolute;
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 0.7;
+}
+
+h2 span {
+    font-family: "Italianno", sans-serif;
+    font-style: italic;
+    padding-left: 4rem;
+    font-size: 10rem;
+}
+
+.titl-div {
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+
+.titl-div p {
+   font-size: 1.6rem;
+   font-family: "Roboto", sans-serif;
+   padding-bottom: 1.5rem;
+}
+
+@media(min-width: 301px) {
+    .card {
+        background-color: hsla(3, 5%, 60%, 10);
+        width: 110%;
+        height: 130vh;
+        margin-top: 1rem;
+        overflow-x: hidden;
+      }
+
+      .logo-div {
+        gap: -6rem;
+      }
+}
+
+@media(min-width: 501px) {
+    .card {
+        background-color: hsla(3, 5%, 60%, 10);
+        width: 90%;
+        height: 130vh;
+        margin: auto;
+        margin-top: 1rem;
+        overflow-x: hidden;
+      }
+}
+
+@media(min-width: 901px) {
+    .card {
+        background-color: hsla(3, 5%, 60%, 10);
+        width: 80%;
+        height: 125vh;
+        margin: auto;
+        margin-top: 1rem;
+        overflow-x: hidden;
+      }
+}
+
+@media(min-width: 1300px) {
+    .card {
+        background-color: hsla(3, 5%, 60%, 10);
+        width: 30%;
+        height: 86vh;
+        margin: auto;
+        margin-top: 6rem;
+        overflow-x: hidden;
+      }
+}
