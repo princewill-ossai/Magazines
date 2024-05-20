@@ -13,6 +13,7 @@ body {
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
+  background-color: hsl(39, 100%, 50%);
 }
 
 .card {
@@ -21,7 +22,7 @@ body {
   background-position: top;
   margin: auto;
   height: 100vh;
-  width: 40%;
+  width: 100%;
 }
 
 .h1 {
@@ -29,7 +30,7 @@ body {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 9rem;
   text-align: center;
 }
 
@@ -42,7 +43,10 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 14rem;
+  padding-top: 4rem;
+  margin-inline: auto;
+  padding-left: 9rem;
+  gap: 10rem;
 }
 
 .flex-div div {
@@ -51,10 +55,14 @@ h1 {
   gap: 8rem;
 }
 
+.left-div {
+  margin-left: 20rem;
+}
+
 .right-div {
   width: 30rem;
   text-align: end;
-  /* padding-inline: 5rem; */
+  margin-right: 36rem;
 }
 
 h2 span {
@@ -63,7 +71,7 @@ h2 span {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 
 
@@ -82,7 +90,7 @@ h2 {
   }
   
   h1 {
-    font-size: 6rem;
+    font-size: 3rem;
     text-align: center;
   }
   
@@ -96,9 +104,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 8rem;
+    padding-block: 8rem;
     padding-inline: 2rem;
-    gap: 3rem;
+    flex-direction: column;
   }
   
   .flex-div div {
@@ -110,10 +118,15 @@ h2 {
   .flex-div > * p {
     font-size: 2rem;
   }
+
+  .left-div {
+    margin-left: 3rem;
+  }
   
   .right-div {
-    width: 30rem;
+    width: 10rem;
     text-align: end;
+    margin-left: 28rem;
   }
   
   h2 span {
@@ -122,16 +135,19 @@ h2 {
   }
   
   h2 {
-    font-size: 4rem;
+    font-size: 0.1rem;
   }
+}
   
-  }
-  
-   @media(max-width:1200px) {
+   @media(max-width:850px) {
+
+    body {
+      background-color: hsl(39, 100%, 50%);
+    }
     .card {
       background-image: url(./images/lady-img.jpg);
       background-repeat: no-repeat;
-      background-position: top;
+      background-position: cover;
       margin: auto;
       height: 120vh;
       width: 100%;
