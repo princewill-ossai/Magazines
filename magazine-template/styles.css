@@ -13,191 +13,100 @@ body {
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
-  background-color: hsl(39, 100%, 50%);
 }
 
 .card {
-  background-image: url(./images/lady-img.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  margin: auto;
-  height: 100vh;
   width: 100%;
-}
-
-.h1 {
-  padding-block: 2rem;
-}
-
-h1 {
-  font-size: 9rem;
-  text-align: center;
-}
-
-.h1 p {
-    text-align: end;
-    padding-right: 18rem;
+  overflow-y: hidden;
 }
 
 .flex-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  background-image: url(./images/magazine-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 60%;
   padding-top: 4rem;
   margin-inline: auto;
-  padding-left: 9rem;
-  gap: 10rem;
 }
 
-.flex-div div {
+.container {
   display: flex;
-  flex-direction: column;
-  gap: 8rem;
+  justify-content: center;
+  gap: 50rem;
+  padding-top: 10rem;
 }
 
-.left-div {
-  margin-left: 20rem;
+.border {
+  padding: 15px !important;
+  padding-inline: 15rem;
+  border: 3px solid yellow;
+  border-bottom: none;
+  height: 140rem;
+  border-radius: 15px;
 }
 
 .right-div {
-  width: 30rem;
+  padding-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.title {
+  font-family: "Reddit Mono", monospace;
+  padding-inline: 8rem;
+}
+
+.date {
   text-align: end;
-  margin-right: 36rem;
+  padding-bottom: 3px;
+}
+h1 {
+  font-size: 7rem;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+.year {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.span-h2 {
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Reddit Mono", monospace;
 }
 
+.left-div {
+  width: 30rem;
+  height: 40rem;
+}
+
+.h2-2 {
+  font-size: 7rem;
+  font-family: 'poetsen One', sans-serif;
+  color: yellow;
+}
+
+.right-div {
+  width: 40rem;
+  height: 60rem;
+  text-align: end;
+}
 h2 span {
-    font-size: 1.5rem;
-    font-size: 200;
+  font-size: 1.5rem;
+  font-size: 200;
 }
-
 h2 {
   font-size: 5rem;
 }
-
-
-@media(max-width:700px) {
-  .card {
-    background-image: url(./images/lady-img.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    margin: auto;
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .h1 {
-    padding-block: 2rem;
-  }
-  
-  h1 {
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  .h1 p {
-      text-align: end;
-      padding-right: 23.5rem;
-      font-size: 2rem;
-  }
-  
-  .flex-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-block: 8rem;
-    padding-inline: 2rem;
-    flex-direction: column;
-  }
-  
-  .flex-div div {
-    display: flex;
-    flex-direction: column;
-    gap: 7rem;
-  }
-
-  .flex-div > * p {
-    font-size: 2rem;
-  }
-
-  .left-div {
-    margin-left: 3rem;
-  }
-  
-  .right-div {
-    width: 10rem;
-    text-align: end;
-    margin-left: 28rem;
-  }
-  
-  h2 span {
-      font-size: 1.5rem;
-      font-size: 200;
-  }
-  
-  h2 {
-    font-size: 0.1rem;
-  }
-}
-  
-   @media(max-width:850px) {
-
-    body {
-      background-color: hsl(39, 100%, 50%);
-    }
-    .card {
-      background-image: url(./images/lady-img.jpg);
-      background-repeat: no-repeat;
-      background-position: cover;
-      margin: auto;
-      height: 120vh;
-      width: 100%;
-    }
-    
-    .h1 {
-      padding-block: 2rem;
-    }
-    
-    h1 {
-      font-size: 6rem;
-      text-align: center;
-    }
-    
-    .h1 p {
-        text-align: end;
-        padding-right: 23.5rem;
-        font-size: 2rem;
-    }
-    
-    .flex-div {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-top: 8rem;
-      padding-inline: 2rem;
-      gap: 6rem;
-    }
-    
-    .flex-div div {
-      display: flex;
-      flex-direction: column;
-      gap: 7rem;
-    }
-  
-    .flex-div > * p {
-      font-size: 2.3rem;
-    }
-    
-    .right-div {
-      width: 30rem;
-      text-align: end;
-    }
-    
-    h2 span {
-        font-size: 1.5rem;
-        font-size: 200;
-    }
-    
-    h2 {
-      font-size: 4rem;
-    }
-  } 
